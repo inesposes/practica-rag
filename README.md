@@ -36,7 +36,6 @@ Para los dos RAGs se realiza el siguiente proceso:
 ## ⚙️ Requisitos
 - Python 3.13.3
 - Una cuenta en MongoDBAtlas con una base de datos y una colección para guardar los vectores.
-  - Posteriormente, tendrás que crear un .env copiando el .env.example y cubrir con los datos de tu clúster.
 - Un entorno Docker con una imagen de [Ollama](https://hub.docker.com/r/ollama/ollama) corriendo y el modelo "llama3.2" instalado.
 - Entorno que permita ejecutar Jupyter Notebooks
 ---
@@ -51,6 +50,7 @@ Para los dos RAGs se realiza el siguiente proceso:
    ```bash
    pip install -r requirements.txt
    ```
+3. Crea un .env copiando el .env.example y cubre con los datos de tu clúster.
 
 ---
 
