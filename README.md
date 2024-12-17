@@ -1,7 +1,9 @@
 # Creación de Sistemas RAG sobre Bases de Datos Vectoriales
 
 ## 📜 Descripción
-El objetivo de este ejercicio es desarrollar un sistema **RAG** (*Retrieved Augmented Generation*), que consiste en la recuperación de información y generación de texto para producir respuestas más precisas al integrar datos externos relevantes. En este caso he creado un RAG que recibe información de un artículo web y otro que la recibe de tres documentos PDF.
+Este proyecto forma parte de una entrega para la asignatura Big Data Aplicado del curso de especialización en IA y Big Data.
+
+El objetivo es desarrollar un sistema **RAG** (*Retrieved Augmented Generation*), que consiste en la recuperación de información y generación de texto para producir respuestas más precisas al integrar datos externos relevantes. En este caso he creado un RAG que recibe información de un artículo web y otro que la recibe de tres documentos PDF.
 
 Para los dos RAGs se realiza el siguiente proceso:
 1. Procesa y divide la información en fragmentos más pequeños (splits).
