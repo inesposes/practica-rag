@@ -56,13 +56,12 @@ Para los dos RAGs se realiza el siguiente proceso:
 
 ### RAG en inglés desde datos de una página web
 - **Descripción:** este RAG utiliza la información de un [artículo](https://towardsdatascience.com/3-business-skills-you-need-to-progress-your-data-science-career-in-2025-146f841d1a1e) sobre cómo progresar en tu carrera en la Ciencia de Datos. Responde a las preguntas en inglés por lo que utiliza un modelo de embeddings que funciona en este idioma.
-- **Ejecución:** según tu entorno, clicar en el botón que ejecute todas las celdas del notebook.
-- **Adicional:** implementación de una Interfaz Gráfica de Usuario (GUI) para facilitar el uso de cualquiera de los sistemas RAG
- anteriores. Se puede acceder a ella a tráves de localhost.
+- **Ejecución:** según tu entorno, clicar en el botón que ejecute todas las celdas del Notebook.
+- **Adicional:** implementación de una Interfaz Gráfica de Usuario (GUI) para facilitar el uso de este RAG. Se puede acceder a ella a tráves de http://127.0.0.1:7860 una vez ejecutado el Notebook.
 
 ### RAG en castellano desde archivos PDF
-- **Descripción:** este RAG utiliza la información sobre tres pdfs que se encuentran en la carpeta "/pdfs" sobre plantas, árboles y flores. Responde a las preguntas en castellano por lo que utiliza un modelo de embeddings plurilingüe.
-- **Ejecución:** según tu entorno, clicar en el botón que ejecute todas las celdas del notebook.
+- **Descripción:** este RAG utiliza la información sobre tres pdfs que se encuentran en la carpeta "/pdfs" sobre plantas, árboles y flores. Responde a las preguntas en castellano, por lo que utiliza un modelo de embeddings plurilingüe.
+- **Ejecución:** según tu entorno, clicar en el botón que ejecute todas las celdas del Notebook.
 
 
 ---
