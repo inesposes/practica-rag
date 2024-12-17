@@ -52,7 +52,7 @@ Para los dos RAGs se realiza el siguiente proceso:
 
 ---
 
-## 📝  Ejercicios
+## 📝  RAGs
 
 ### RAG en inglés desde datos de una página web
 - **Descripción:** este RAG utiliza la información de un [artículo](https://towardsdatascience.com/3-business-skills-you-need-to-progress-your-data-science-career-in-2025-146f841d1a1e) sobre cómo progresar en tu carrera en la Ciencia de Datos. Responde a las preguntas en inglés por lo que utiliza un modelo de embeddings que funciona en este idioma.
