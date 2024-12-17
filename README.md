@@ -4,10 +4,10 @@
 El objetivo de este ejercicio es desarrollar un sistema **RAG** (*Retrieved Augmented Generation*), que consiste en la recuperación de información y generación de texto para producir respuestas más precisas al integrar datos externos relevantes. En este caso he creado un RAG que recibe información de un artículo web y otro que la recibe de tres documentos PDF.
 
 Para los dos RAGs se realiza el siguiente proceso:
-1. Divide la información en fragmentos más pequeños (splits).
-2. Inicializa un modelo de embeddings de texto utilizando Hugging Face 
+1. Procesa y divide la información en fragmentos más pequeños (splits).
+2. Inicializa un modelo de embeddings de texto de Hugging Face 
 3. Se conecta a la base de datos vectorial de MongoDBAtlas. 
-4. Introduce la información con su correspondiente embedding. 
+4. Introduce la información con su correspondiente embedding en la base de datos. 
 5. Integra el uso de un **LLM** (*Large Language Model*) de Ollama para responder preguntas basadas en el contexto de la información proporcionada.
 
 
@@ -32,11 +32,10 @@ Para los dos RAGs se realiza el siguiente proceso:
 ---
 
 ## ⚙️ Requisitos
-Lista de elementos necesarios para comenzar el ejercicio:
 - Python 3.13.3
 - Una cuenta en MongoDBAtlas con una base de datos y una colección para guardar los vectores.
   - Posteriormente, tendrás que crear un .env copiando el .env.example y cubrir con los datos de tu clúster.
-- Un entorno Docker con una imagen de [Ollama](e9XPu!O9D!6$XeS&ub#Nn8Wv) corriendo y el modelo "llama3.2" instalado.
+- Un entorno Docker con una imagen de [Ollama](https://hub.docker.com/r/ollama/ollama) corriendo y el modelo "llama3.2" instalado.
 - Entorno que permita ejecutar Jupyter Notebooks
 ---
 
@@ -53,7 +52,7 @@ Lista de elementos necesarios para comenzar el ejercicio:
 
 ---
 
-## 📝 Estructura de los Ejercicios
+## 📝  Ejercicios
 
 ### RAG en inglés desde datos de una página web
 - **Descripción:** este RAG utiliza la información de un [artículo](https://towardsdatascience.com/3-business-skills-you-need-to-progress-your-data-science-career-in-2025-146f841d1a1e) sobre cómo progresar en tu carrera en la Ciencia de Datos. Responde a las preguntas en inglés por lo que utiliza un modelo de embeddings que funciona en este idioma.
